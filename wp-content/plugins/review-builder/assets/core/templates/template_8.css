@@ -1,0 +1,90 @@
+.sg-template-wrapper {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	border: 1px solid rgb(250, 250, 250);
+	box-sizing: border-box;
+}
+
+.sg-tempo-image {
+	width: 100%;
+	overflow: hidden;
+	height: 390px;
+}
+
+.sg-tempo-title {
+	width: 100%;
+	height: 45px;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 1.1em;
+	font-weight: bold;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 5px;
+	overflow: hidden;
+	line-height: 100%;
+}
+
+.sg-tempo-by {
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	color: #0066c0;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.sg-tempo-price {
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	color: #D07D68;
+	font-size: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.sg-tempo-shipping {
+	width: 100%;
+	height: 35px;
+	padding: 5px;
+	color: #000000;
+	font-size: 15px;
+	font-style: bold;
+	display: inline-block;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.sg-tempo-title-second {
+	width: 100%;
+	height: 35px;
+	display: inline-block;
+	border-radius: 3px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 5px;
+	overflow: hidden;
+	line-height: 100%;
+}
+
+.sg-tempo-title-info {
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	border: 1px solid rgb(250, 250, 250);
+	border-radius: 3px;
+	background-color: white;
+	box-sizing: border-box;
+	padding: 5px;
+	line-height: 140%;
+	overflow: hidden;
+}
+
+
+.sgrb-icon-wrapper {
+	left: 40% !important;
+	top: 40% !important;
+}

@@ -1,0 +1,11 @@
+/**
+ * Widget styles
+ */
+
+.widget_imdb_connector_movie .movie-title {
+   margin-bottom: 10px;
+}
+
+.widget_imdb_connector_movie .movie-poster {
+   margin-bottom: 10px;
+}

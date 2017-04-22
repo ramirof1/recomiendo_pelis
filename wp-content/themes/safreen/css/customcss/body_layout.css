@@ -1,0 +1,31 @@
+.branding{padding-right: 10px;
+padding-left: 10px;width: 85%;
+float: left;
+margin: 0px 0px 0px 0px;}
+
+.branding-single { padding-right:10px; padding-left:10px;}
+
+#wrapper{width: 85% !important;
+float: left;
+margin: 0px 7.5% !important;
+}
+
+
+
+.box-one-third .inner{padding:40px;}
+@media (max-width: 992px) {
+	
+	
+	#wrapper,.branding--clone{width: 100%;
+float: left;
+margin: 0px 0px;
+}
+
+.branding{ width:100%;}}
+
+
+#navmenu .search-form .search-field {width:80%;}
+
+body .branding--clone  {width: 85% !important;
+float: left;
+margin: 0px 7.5% !important;}

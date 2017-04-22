@@ -1,0 +1,10 @@
+
+/* CSS mobile_sidebar */
+
+@media (max-width: 992px) {
+
+
+#sidebar {display:none;}
+}
+
+

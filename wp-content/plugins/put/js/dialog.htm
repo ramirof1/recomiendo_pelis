@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>{#put_dlg.title}</title>
+    <script type="text/javascript" src="tiny_mce_popup.js"></script>
+    <script type="text/javascript">
+	var PostUITabsDialog = {
+		init : function() {
+			this.resize();
+			var SelectedText = tinyMCEPopup.getWindowArg('selection') || '';
+			if( '' == SelectedText )
+				return;
+			el = document.getElementById('put_tab_content');
+			el.value = SelectedText;
+		},
+		insert : function() {
+			var n = tinyMCEPopup.dom.encode( document.getElementById('put_tab_name').value );
+			var c = tinyMCEPopup.dom.encode( document.getElementById('put_tab_content').value );
+			var h = '';
+			
+			lines = c.split(/\r?\n/);
+			if( lines.length > 0 ) {
+				h = '';
+				linecount = lines.length;
+				lastindex = linecount - 1;
+				line = null;
+				for( var i = 0; i < linecount; i++ ) {
+					line = lines[i];
+					if( '' == line )
+						continue;
+					
+					h += line;
+					if( lastindex != i )
+						h += '<br /><br />';
+				}
+			}
+			if( '' == n )
+				n = tinymce.activeEditor.getLang('put.default_tab_text');
+			
+			tinyMCEPopup.editor.execCommand( 'mceInsertContent', false, '[tab name="'+n+'"]'+h+'[/tab]<br /><br />' );
+			tinyMCEPopup.close();
+		},
+		resize : function() {
+			var vp = tinyMCEPopup.dom.getViewPort(window), el;
+			el = document.getElementById('put_tab_content');
+			el.style.height = (vp.h - 140) + 'px';
+			el.style.width = (vp.w - 20) + 'px';
+		}
+	};
+	tinyMCEPopup.onInit.add( PostUITabsDialog.init, PostUITabsDialog );
+	</script>
+	<style type="text/css">
+		input { height:25px!important;line-height:20px!important; }
+		.mceActionPanel { margin:10px 0!important;}
+	</style>
+</head>
+<body onresize="PostUITabsDialog.resize();">
+<form onsubmit="PostUITabsDialog.insert();" action="#" name="put_paste" id="">	
+	<p>
+		<label for="put_tab_name">{#put_dlg.tab_name_label}:</label><br />
+		<input id="put_tab_name" type="text" name="put_tab_name" />
+	</p>
+	<p>
+		<label for="put_tab_content">{#put_dlg.tab_content_label}:</label><br />
+		<textarea name="put_tab_content" id="put_tab_content"></textarea>
+	</p>
+	<div class="mceActionPanel">
+		<input type="submit" name="insert" value="{#insert}" id="insert" />
+		<input type="button" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" id="cancel" />
+	</div>
+</form>
+</body>

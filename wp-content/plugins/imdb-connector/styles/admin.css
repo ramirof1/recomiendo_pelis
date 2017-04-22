@@ -1,0 +1,93 @@
+/**
+ * Settings page
+ */
+
+#imdb-connector-settings .fa {
+   margin-right: 7px;
+}
+
+#imdb-connector-settings h2 {
+   margin-bottom: 30px;
+}
+
+#imdb-connector-settings input[type="radio"] {
+   margin-left: 10px;
+}
+
+#imdb-connector-settings input[type="radio"].first {
+   margin-left: 0 !important;
+}
+
+#imdb-connector-settings .message {
+   font-size:   12px;
+   font-weight: bold;
+}
+
+#imdb-connector-settings .message.success {
+   color: #4acd70;
+}
+
+#imdb-connector-settings .message.error {
+   color: #e75a54;
+}
+
+#imdb-connector-settings .radio-description {
+   font-size: 12px;
+}
+
+#imdb-connector-settings #allow-caching-row #invalid-directory .message {
+   margin-bottom: 10px;
+}
+
+#imdb-connector-settings #delete-cache-container {
+   height:     30px;
+   margin-top: 10px;
+}
+
+#imdb-connector-settings #delete-cache-container #delete-cache-loading-icon {
+   left:     30px;
+   position: relative;
+   top:      5px;
+}
+
+#imdb-connector-settings #toggle-examples-buttons {
+   margin-top: 10px;
+}
+
+#imdb-connector-settings #toggle-examples-buttons #hide-examples {
+   display: none;
+}
+
+#imdb-connector-settings #shortcode-examples .example {
+   margin-bottom: 20px;
+}
+
+#imdb-connector-settings #shortcode-examples p,
+#imdb-connector-settings #shortcode-examples code {
+}
+
+#imdb-connector-settings #movie-list {
+   height: 80px;
+   resize: vertical;
+   width:  50%;
+}
+
+#imdb-connector-settings #movie-list.expanded {
+   height: 200px;
+}
+
+#imdb-connector-settings .submit-area {
+   margin-top: 25px;
+}
+
+#imdb-connector-settings .submit-area .button-primary {
+   margin-right: 10px;
+}
+
+/**
+ * Widget configuration
+ */
+
+.imdb-connector-widget-admin textarea {
+   resize: vertical;
+}

@@ -1,0 +1,7 @@
+.sgrb-template-part-wrapper *:empty {
+	display: none;
+}
+
+.sgrb-template-part-wrapper .sg-temp-field-full-height {
+	height: 100% !important;
+}

@@ -1,0 +1,399 @@
+/*
+
+Theme Name: Safreen Child
+
+Theme URI: https://smartcatdesign.net/smartcat-products/relia-wordpress-theme/
+
+Template: safreen
+
+Author: Smartcat
+
+Author URI: https://smartcatdesign.net
+
+Description: Build your site easily and quickly. Relia is a pixel-perfect, professional, fully responsive, Parallax modern WordPress theme, built with care and attention to design. It is Woocommerce ready, multi-purpose theme with a design that can be used by a startup companies, businesses, creative agencies and online stores. Relia features a full width frontpage Jumbotron, animated callouts with over 600 icons to choose from. The blog is an attractive tile grid, it comes with multiple color skin options, left and right sidebars, 4 widget areas, mobile responsive menu and links to your social media sites. Relia allows you to fully customize your site without having to work with code. Relia also features a live customizer, allowing you to test settings and preview them as you go. Create your first page, set the frontpage template and let Relia take care of the rest!
+
+Tags: one-column,two-columns,three-columns,left-sidebar,right-sidebar,grid-layout,custom-colors,custom-menu,featured-images,theme-options,translation-ready,blog,e-commerce,entertainment,news,photography,portfolio
+
+Version: 1.0.0
+
+Updated: 2017-03-06 23:25:36
+
+
+
+*/
+
+
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background-image: radial-gradient( #1a1a3c 0%, #041614 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+img { max-width: 100%; }
+
+
+
+
+.latest-post-safreen {
+  background: transparent;
+  padding-top: 2%;
+}
+
+.branding-single {
+  background: rgb(0, 0, 0); /* Fall-back for browsers that don't
+  support rgba */
+  background: rgba(0, 0, 0, .3);
+  position: relative;
+  z-index: 102;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/*============MAIN==========*/
+p {
+ font-size: 10px;
+ font-family: 'Merriweather', serif;
+
+}
+
+
+#stickybox {
+  overflow:hidden;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+  color: white;
+  background-color:  rgba(0, 0, 0, .3);
+  width: 88%;
+  float: none;
+  padding-top: 3%;
+  margin-top: 0px;
+  margin: auto;
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+#titulosticky {
+  font-size: 26px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 0;
+
+}
+
+.movie-poster {
+  display: block;
+  width: 20%;
+  float: left;
+  margin: .75% 2.25% .75% 2.25%;
+
+}
+
+.movie-trailer {
+  width: 25%;
+  text-align: center;
+  margin-top: -40px;
+      margin-bottom: 35px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+a:link {color:#808080;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+
+}
+a:visited {color:#808080;}
+a:hover {color:#FFFFFF;}
+
+.stickycontent {
+  margin-top: -18px;
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+  color: #cbcbcb;
+  display: block;
+  padding: 0px;
+}
+
+.contenttext {
+  font-size: 12px;
+  font-family: 'Merriweather', serif;
+  color: #cbcbcb;
+}
+
+.lay1 {
+  background-color: transparent;
+  width: 88%;
+  float: none;
+  padding-top: 3%;
+  margin-top: 0px;
+  margin: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.imgwrap {
+  width: 96%;
+  max-height: 96%;
+  border-radius: 4px 4px 0px 0px;
+  overflow: hidden;
+}
+
+#tabs-1 {
+    font-size: 10px;
+    margin-top: -18px;
+}
+
+[role="tablist"]{
+display: inline;
+list-style: none;
+text-align: left;
+padding: 5px;
+
+
+}
+
+[role="tab"]{
+  background-color: transparent;
+  display: inline;
+  list-style-type: none;
+  color: white;
+
+ }
+
+ [role="presentation"]{
+   font-family: 'Lato', sans-serif;
+   font-size: 11px;
+   color: white;
+   text-align: left;
+   float: left;
+   margin: 5px;
+   margin-left: 0px;
+   margin-top: 0px;
+
+ }
+
+ [role="presentation"]:hover{
+color: red;
+
+ }
+
+ [aria-expanded="true"]{
+
+   color:yellow;
+
+
+ }
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+
+  color: black;
+}
+
+  [role="tabpanel"]{
+    margin-top: 6px;
+    font-size: 10px;
+
+  }
+/*==================NAV================*/
+
+.menu-item {
+
+padding: 0;
+
+}
+
+#menu_wrap {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: right;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  position: relative;
+  padding-top: 0px;
+  width: 65%;
+  float: right;
+  padding-right: 0px;
+}
+
+#site-title {
+  float: left;
+  height: auto;
+  background: no-repeat;
+line-height: normal;
+  padding-left: 0px;
+}
+
+.branding-single #site-title a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+      font-size: 3.5vw;
+}
+
+.branding-single #navmenu li a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-transform: capitalize;
+  padding: 0px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  margin: 0;
+
+}
+
+#navmenu li a:hover {
+  color: #FFF
+}
+
+#navmenu ul > li::after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transition: height 0s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: height 0s, opacity 0.3s, -moz-transform 0.3s;
+  transition: height 0s, opacity 0.3s, transform 0.3s;
+  background-color: #ac71f5;
+}
+
+.home #navmenu ul li.current-menu-item > a {
+    color: #ffffff;
+}
+
+#navmenu ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.menu-item .menu-item-type-custom .menu-item-object-custom .current-menu-item .current_page_item .menu-item-home .menu-item-44 {
+ padding:0;
+ }
+
+ .a {
+
+   padding: 0;
+ }
+/*==============  BLOG ============*/
+
+.matchhe {
+  border-radius: 30%;
+  width: 11.25%;
+  max-height: auto;
+  padding: 1px;
+    margin-right: .75%;
+  margin-bottom: .75%;
+}
+
+.imgwrap {
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color:  rgba(255, 255, 255, 0.3);
+  min-height: 100%;
+  max-height: 100%;
+
+}
+
+.modal-content {
+  position: fixed;
+  background-color: transparent;
+   left:50%;
+  padding: 20px;
+  border-radius: 5px;
+
+   -webkit-transform:translate(-50%, -1100%);
+   -ms-transform: translate(-50%, -1100%);
+   transform: translate(-50%, -1100%);
+   overflow: hidden;
+}
+
+.modal:before{
+  content: "";
+  position: fixed;
+  display:none;
+  left: 0;
+  top:0;
+  background-color: rgba(0,0,0,.8);
+  height:100%;
+  width:100%;
+}
+
+.modal:target:before {
+  display: block;
+}
+
+.modal:target .modal-content {
+  top: 20%;
+   -webkit-transform:translate(-50%, 0);
+   -ms-transform: translate(-50%, 0);
+   transform: translate(-50%, 0);
+}
+
+.modal-content > a {
+   font-size: 1vw;
+   color: white;
+   font-weight: bold;
+   text-align: right;
+   float: right;
+}
+/*========================POST CONTENT===============================*/
+
+#content {
+  width: 80%;
+  margin: auto;
+  float: none;
+  padding-bottom: 20px;
+  padding-top: 3%;
+  background-color: #FFF;
+}
+
+/*========================FOOTER===============================*/
+
+#footer {
+  background-color: transparent;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0px;
+
+}
+
+#copyright {
+  width: 100%;
+  padding: 15px;
+  float: left;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+#copyright .social-safreen {
+  margin-top: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.social-safreen .fa {
+    display: inline-block;
+    font: normal normal normal 18px/1 FontAwesome !important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased !important;
+    color: white !important;
+}

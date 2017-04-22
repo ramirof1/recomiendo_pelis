@@ -1,0 +1,81 @@
+.sgrb-form-options-main-wrapper {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	width: 100%;
+}
+
+.sgrb-title-input {
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	height: 1.7em;
+	width: 100%;
+	outline: 0;
+	margin: 0 0 15px;
+	background-color: #fff
+}
+
+.sgrb-form-textarea {
+	width: 100%;
+	margin: 5px 0;
+	resize: none;
+	background-color: rgba(247, 247, 247, 0.5);
+	/*min-height: 200px;*/
+}
+
+.sgrb-form-general-box {
+	min-height: 100px !important;
+}
+
+.sgrb-insert-form-tag {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.sgrb-field-tags-wrapper {
+	margin-bottom: 10px !important;
+}
+
+.sgrb-field-options-wrapper {
+	border-top: 1px solid #ccc;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.sgrb-form-field-options-title {
+	font-weight: bold;
+}
+
+.sgrb-field-options-row {
+	margin: 5px 0 !important;
+}
+
+.sgrb-field-options-inputs {
+	width: 100%;
+}
+
+.sgrb-created-text-tag {
+	display: none;
+}
+
+.sgrb-form-minus-icon {
+	width: 50px;
+	height: 50px;
+}
+
+.sgrb-form-minus-icon:hover {
+	cursor: pointer;
+}
+
+.sgrb-minus-icon-wrapper {
+	padding: 0 !important;
+}
+
+.sgrb-form-row {
+	overflow: hidden !important;
+}
+
+.sgrb-insert-js {
+	float: right !important;
+}

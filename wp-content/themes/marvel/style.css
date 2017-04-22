@@ -1,0 +1,124 @@
+﻿/*
+/*
+Theme Name: Marvel
+Template:   safreen
+Theme URI: 
+Author: Imon Themes
+Author URI: http://www.imonthemes.com
+License: GNU General Public License, v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: marvel
+Domain Path: /languages/
+
+Description: Marvel super flat design and responsive landing page and multipurpose theme. you will be amazed by the real time customizer,lots of smart options that will help you build your website with ease.Marvel is a child theme of Safreen.
+
+Version: 1.0.2
+
+Tags:  featured-images, threaded-comments,blog,photography
+
+Marvel WordPress Theme, Copyright 2016 imonthemes.com
+Marvel is distributed under the terms of the GNU GPL
+
+/*---------------------------------------
+NEWS            
+-----------------------------------------*/
+
+.widgets-post-advance{background: #FFF none repeat scroll 0% 0%;}
+.widgets-post-advance .post_warp{float:left !important; margin-bottom:5%;}
+
+.single_latest_news{
+	overflow:hidden;
+	position:relative;
+	margin-bottom:8%;}
+
+.latest_news_image{
+    position: relative;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s; 
+	padding-bottom: 5%;   
+}
+.latest_news_image img{
+    width: 100%;
+}
+
+.single_latest_news:hover .latest_news_image{
+    opacity: .7;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.latest_news_desc h2{
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;  
+    margin-bottom: 5px;  
+}
+.latest_news_desc h2 a{
+    text-decoration: none;
+    color: #333;
+}
+.latest_news_desc h4{
+    color: #585858;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 40px;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+}
+.latest_news_desc h4 a{
+    color: #585858;
+    text-decoration: none;
+}
+.latest_news_desc p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #585858;
+    margin-top: 20px;    
+    margin-bottom: 30px;
+	word-wrap: break-word;
+}
+.read_more, .read_more:active, .read_more:focus, .read_more:visited{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #333;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 7px 15px;
+}
+.read_more:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;    
+}
+
+#respond {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+	float:left;
+}
+
+.lay1{background-color:#FFF;
+width: 100%;
+float: left;
+padding-top: 40px;
+margin-top:0px;}

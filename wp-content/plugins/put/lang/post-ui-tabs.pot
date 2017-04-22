@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post UI Tabs\n"
+"POT-Creation-Date: 2013-04-27 20:30-0000\n"
+"PO-Revision-Date: 2013-04-27 20:30-0000\n"
+"Last-Translator: t31os_ <wp-t31os@ntlworld.com>\n"
+"Language-Team: t31os_ <wp-t31os@ntlworld.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../put.phphp:213
+#: ../put.php:539
+msgid "Post UI Tabs"
+msgstr ""
+
+#: ../put.phphp:214
+#: ../put.phphp:255
+msgid "Welcome to the Post UI Tabs plugin configuration page."
+msgstr ""
+
+#: ../put.phphp:223
+msgid "Save Settings"
+msgstr ""
+
+#: ../put.phphp:239
+msgid "FAQ"
+msgstr ""
+
+#: ../put.phphp:240
+msgid "Plugin Hooks"
+msgstr ""
+
+#: ../put.phphp:241
+msgid "Change Log"
+msgstr ""
+
+#: ../put.phphp:242
+msgid "Support"
+msgstr ""
+
+#: ../put.phphp:246
+msgid "Overview"
+msgstr ""
+
+#: ../put.phphp:247
+msgid "Skins"
+msgstr ""
+
+#: ../put.phphp:248
+msgid "Disabled Tabs"
+msgstr ""
+
+#: ../put.phphp:255
+msgid ""
+"Using this page you may configure the various settings for the plugin to "
+"suit your needs, don't be shy .. go ahead!"
+msgstr ""
+
+#: ../put.phphp:260
+#: ../put.phphp:560
+msgid "Choose a UI skin"
+msgstr ""
+
+#: ../put.phphp:260
+msgid ""
+"The default skin options are provided based on the theme's available from "
+"the jQuery UI site. Simply click the dropdown menu shown and choose from the "
+"list of styles. A preview of your selected skin will be shown on the "
+"righthand side of the configuration area."
+msgstr ""
+
+#: ../put.phphp:261
+#: ../put.phphp:567
+msgid "Disable skins"
+msgstr ""
+
+#: ../put.phphp:261
+msgid ""
+"If you' prefer to do your own styling by any means feel free to tick the "
+"disable skins option to prevent the plugin from loading any stylesheet."
+msgstr ""
+
+#: ../put.phphp:266
+#: ../put.phphp:593
+msgid "Use disabled tabs"
+msgstr ""
+
+#: ../put.phphp:266
+msgid ""
+"Enabling this option will prevent users from being able to click tabs that "
+"do not have any content associated with them. You can find an example of a "
+"disabled tab in the preview shown to the right of the configuration options."
+msgstr ""
+
+#: ../put.phphp:335
+msgid ""
+"<strong>Please note:</strong><br /> The tabs may not appear on your pages as "
+"you see them here, your theme stylesheet may override some of the styling. "
+"If you would like some help making adjustments please feel free to start a "
+"support topic on the WordPress forums."
+msgstr ""
+
+#: ../put.phphp:561
+msgid "Select a skin"
+msgstr ""
+
+#: ../put.phphp:562
+msgid ""
+"Select which jQuery UI skin to apply to the tabs - ignored if skins have "
+"been disabled"
+msgstr ""
+
+#: ../put.phphp:568
+msgid "Disable the plugin stylesheet"
+msgstr ""
+
+#: ../put.phphp:569
+msgid "Enable this option if you want to define your own CSS for the tabs"
+msgstr ""
+
+#: ../put.phphp:581
+msgid "Enable tabs for archives"
+msgstr ""
+
+#: ../put.phphp:582
+msgid "Use tabs on more pages"
+msgstr ""
+
+#: ../put.phphp:583
+msgid ""
+"Whether to enable tabs on non-single pages, such as category archives, date "
+"archives, the index and so on."
+msgstr ""
+
+#: ../put.phphp:587
+msgid "Enable tab navigation"
+msgstr ""
+
+#: ../put.phphp:588
+msgid "Next and previous links"
+msgstr ""
+
+#: ../put.phphp:589
+msgid "Enabling this feature adds next and previos tabs links to all tab sets"
+msgstr ""
+
+#: ../put.phphp:594
+msgid "Disable empty tabs"
+msgstr ""
+
+#: ../put.phphp:595
+msgid "Using this option will prevent users being able to click on empty tabs"
+msgstr ""
+
+#: ../put.phphp:599
+msgid "Rewrite feed HTML"
+msgstr ""
+
+#: ../put.phphp:600
+msgid "Replace tabs and content with headings and paragraphs"
+msgstr ""
+
+#: ../put.phphp:601
+msgid "If this option is not enabled tabs are removed from feeds"
+msgstr ""
+
+#: ../put.phphp:620
+msgid "Tab"
+msgstr ""
