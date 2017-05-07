@@ -81,7 +81,6 @@ Template Name: Business
 						</div>
 
 
-
 						<div class="zonatitulo">
 							<h1 id="titulosticky" class="stickytitle"><?php the_title(); ?></h1>
 						</div>
@@ -91,24 +90,35 @@ Template Name: Business
 							<p class="content"><?php the_content(); ?></p>
 							</div>
 
-     <div class="movie-trailer">
 
-			 <a href="#trailer">Trailer</a>
+							<?php if (in_category( 'netflix' )) :  ?>
+
+														<div class="movie-trailer">
+
+                                <?php the_excerpt() ?>
+
+
+											 		  </div>
+
+							<?php elseif (in_category( 'peliculas' )): ?>
+							     <div class="movie-trailer">
+
+										 <a href="#trailer">Trailer</a>
 
 
 
 
-						<div class="modal" id="trailer" >
+													<div class="modal" id="trailer" >
 
-							<div class="modal-content">
+														<div class="modal-content">
 
-								<a href="#">X</a>
-								<?php the_excerpt(); ?>
+															<a href="#">X</a>
 
-							</div>
-						</div>
+														</div>
+													</div>
 
-		  </div>
+									  </div>
+							<?php endif; ?>
 
 
 						<?php  endwhile;	?>

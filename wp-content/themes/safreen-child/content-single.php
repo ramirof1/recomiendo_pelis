@@ -83,9 +83,34 @@ Template Name: Business
 							</div>
 
 
-							<div class="movie-trailer">
-								<?php the_excerpt(); ?>
-							</div>
+							<?php if (in_category( 'netflix' )) :  ?>
+
+														<div class="movie-trailer">
+
+                                <?php the_excerpt() ?>
+
+
+											 		  </div>
+
+							<?php elseif (in_category( 'peliculas' )): ?>
+							     <div class="movie-trailer">
+
+										 <a href="#trailer">Trailer</a>
+
+
+
+
+													<div class="modal" id="trailer" >
+
+														<div class="modal-content">
+
+															<a href="#">X</a>
+
+														</div>
+													</div>
+
+									  </div>
+							<?php endif; ?>
 
 
 						</div>
